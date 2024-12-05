@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import { viteStaticCopy } from 'vite-plugin-static-copy';
 
 export default defineConfig({
-  base: 'https://rolling-scopes-school.github.io/bitbybit-JSFE2024Q4/christmas-shop/',
+  base: 'https://bitbybit.github.io/example-markup/',
 
   resolve: {
     alias: {
