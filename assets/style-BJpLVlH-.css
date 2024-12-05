@@ -326,8 +326,18 @@ body.menu-burger-opened .header__menu-burger {
 body.menu-burger-opened .header__menu-close {
   display: block;
 }
+@media (min-width: 769px) {
+  body.menu-burger-opened .header__menu-close {
+    display: none;
+  }
+}
 body.menu-burger-opened .menu-burger {
   display: flex;
+}
+@media (min-width: 769px) {
+  body.menu-burger-opened .menu-burger {
+    display: none;
+  }
 }
 
 .container {
@@ -1082,8 +1092,18 @@ body.menu-burger-opened .header__menu-burger {
 body.menu-burger-opened .header__menu-close {
   display: block;
 }
+@media (min-width: 769px) {
+  body.menu-burger-opened .header__menu-close {
+    display: none;
+  }
+}
 body.menu-burger-opened .menu-burger {
   display: flex;
+}
+@media (min-width: 769px) {
+  body.menu-burger-opened .menu-burger {
+    display: none;
+  }
 }
 
 .container {

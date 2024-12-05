@@ -592,7 +592,7 @@ itemsScrollLeft_get = function() {
   if (__privateGet(this, _elements4).items === null) {
     return 0;
   }
-  return __privateGet(this, _elements4).items.offsetLeft - __privateGet(this, _Slider_instances, sliderPaddingLeft_get);
+  return parseFloat(__privateGet(this, _elements4).items.style.left || 0);
 };
 itemsScrollLeft_set = function(value) {
   if (__privateGet(this, _elements4).items === null) {
@@ -908,4 +908,4 @@ const init = async function() {
   });
 };
 document.addEventListener("DOMContentLoaded", init);
-//# sourceMappingURL=app-CyZN4-cf.js.map
+//# sourceMappingURL=app-CrzEdfr_.js.map
